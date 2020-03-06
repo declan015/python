@@ -2,7 +2,7 @@ print("--- Hospital xxx ---")
 print("Seja bem vindo!")
 
 nome = input("Qual o seu nome? ")
-idade = float (input("Qual a sua idade? "))
+idade = int (input("Qual a sua idade? "))
 
 if idade < 15 or idade > 60:
     print("Atendimento prioritario!!")
@@ -12,5 +12,5 @@ else:
     if prior == "S":
         print("Atendimento prioritario!!")
     else:
-        print("Segue na fila")
+        print("Continue na fila " + nome.title())
 
