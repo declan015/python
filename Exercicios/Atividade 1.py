@@ -36,7 +36,7 @@ while pers=="S":
 
     if newlist != []:
 
-        print('Aqui estão os nomes vazados que contem "'+nome+'":')
+        print('\nAqui estão os nomes vazados que contem "'+nome+'":')
         for x in newlist:
 
             i=i+1
